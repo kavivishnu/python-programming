@@ -1,5 +1,5 @@
-s1=input("enter the 1st string:")
-s2=input("enter the 2nd string:")
+a1=input("enter the 1st string:")
+a2=input("enter the 2nd string:")
 MAX_CHARS = 256
 def iso(string1, string2):
 	m = len(string1)
@@ -17,4 +17,4 @@ def iso(string1, string2):
 		elif map[ord(string1[i])] != string2[i]:
 			return "Not isomorphic."
 	return "Yes"
-print (iso(s1,s2))
+print (iso(a1,a2))
